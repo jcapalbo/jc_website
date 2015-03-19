@@ -6,6 +6,10 @@ body {
     font-family: 'PT Serif';
 }
 
+.container.top-space {
+    margin-top: 90px;
+}
+
 .jumbo-mountain-image {
     background-image: url("../img/mountian_landscape.JPG");
     background-repeat: no-repeat;
@@ -15,7 +19,7 @@ body {
 
 .jumbo-layer-cover {
     /*background-color: rgba(0, 0, 0, 0.3);*/
-    background-color: rgba(30, 64, 127, 0.4);
+    background-color: rgba(30, 64, 127, 0.5);
     position: absolute;
     top: 0;
     left: 0;
@@ -85,6 +89,14 @@ body {
     border: 2px solid #dddddd;
     padding: 7px;
     border-radius: 5px;
+    color: #dddddd;
+}
+
+.logo-box.dark {
+    border: 2px solid #1C1C1C;
+    padding: 7px;
+    border-radius: 5px;
+    color: #1C1C1C;
 }
 
 .info-section p {
