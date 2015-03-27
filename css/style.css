@@ -1,8 +1,6 @@
 body {
-    background-image: url("../img/crossword.png");
-    background-repeat: repeat;
     color: #404040;
-    font-family: 'PT Serif';
+    font-family: 'Roboto';
 }
 
 .container.top-space {
@@ -44,8 +42,7 @@ body {
 }
 
 .text-white {
-    color: #fff;
-}
+    color: #ffffff}
 
 .light-box-shadow {
     box-shadow: 0 1px 3px rgba(0,0,0,0.4);
@@ -67,12 +64,6 @@ body {
     background: #fff;
 }
 
-.crossword-bg {
-    background-image: url("../img/crossword.png");
-    background-repeat: repeat;
-}
-
-
 /***** Navbar Styling *****/
 .navbar-top {
     margin-top: 0;
@@ -92,9 +83,6 @@ body {
 
 .navbar-logo {
     display: block;
-}
-
-.navbar-logo {
     float: left;
     height: 50px;
     padding: 15px 15px;
@@ -108,10 +96,10 @@ body {
 }
 
 .logo-box {
-    border: 2px solid #dddddd;
+    border: 2px solid #ffffff;
     padding: 7px;
     border-radius: 5px;
-    color: #dddddd;
+    color: #ffffff;
 }
 
 .logo-box.dark {
